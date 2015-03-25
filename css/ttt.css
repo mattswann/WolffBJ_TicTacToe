@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Fontdiner+Swanky);
+
+
+body {
+    max-width: 900px;
+    max-height: 900px;
+    margin: 0 auto;
+
+}
+
+h1 {
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 80px;
+    font-weight: bold;
+    color: darkslateblue;
+    background-color: yellow;
+
+}
+
+.board {
+    display:table;
+    width:700px;
+    height:700px;
+    position: relative;
+    border:5px solid steelblue;
+    background-color: aliceblue;
+}
+
+footer {
+    background-color: darkslateblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#getPlayer1Move {
+  color: #FFF;
+  background-color: #900;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+}
+
+#getPlayer2Move {
+  color: #FFF;
+  background-color: #900;
+  font-weight: bold;
+    width: 100px;
+  height: 50px;
+}
+
+#resetGame {
+  color: white;
+  background-color: indigo;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+}
+
