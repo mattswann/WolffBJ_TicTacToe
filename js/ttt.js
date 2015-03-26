@@ -79,10 +79,10 @@ board[xPos][yPos] = 'X';
 //the following code represents odds/evens which changes the above "X" to a "O" and back again after each click...... also posts result to the html & the array in .js ..........YAY!
 
     if (counter % 2 == 1) {
-        $(this).val("    X    ");
+        $(this).val("    X    ").addClass('xclass');
         board[xPos][yPos] = 'X'
     } else {
-        $(this).val("    O    ")
+        $(this).val("    O    ").addClass('oclass');
         board[xPos][yPos] = 'O'
     }
     checkWin()
